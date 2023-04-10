@@ -1,0 +1,36 @@
+{
+  "name": "sendtochatgpt-nodejs",
+  "version": "1.0.0",
+  "description": "SendToChatGPT-nodejs is just a simple script that goes through your every file and merges all of them and it's locations to a list, so you can send it to ChatGPT. Keep in mind that when the code is too long, it may break, so use it at your own disclosure. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/max0783/sendToChatGPT-nodejs.git"
+  },
+  "keywords": [
+    "send",
+    "to",
+    "chatgpt",
+    "node",
+    "file",
+    "to",
+    "text",
+    "merge",
+    "files"
+  ],
+  "author": "Maximiliano Mitre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/max0783/sendToChatGPT-nodejs/issues"
+  },
+  "homepage": "https://github.com/max0783/sendToChatGPT-nodejs#readme",
+  "dependencies": {
+    "file-type": "^18.2.1",
+    "fs": "^0.0.1-security",
+    "mime-types": "^2.1.35",
+    "path": "^0.12.7"
+  }
+}
